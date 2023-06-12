@@ -19,11 +19,16 @@ body{
 /* title */
 h1{
     font-size: 3em;
+    margin-bottom: 5px;
 }
 
 /* author article */
 address{
+    font-weight: 700;
     font-size: 16px;
+    margin-top: 5px;
+    color: rgb(175, 174, 174);
+
 }
 
 .address_author{
@@ -35,6 +40,85 @@ a{
     color: rgb(68, 129, 199);
 }
 
+/* margin main */
 main{
     margin: auto 5px;
+}
+
+.images_Tim{
+    margin-top: 10px;
+}
+
+/* font source images Tim */
+.source_images_Tim{
+    font-size: .75em;
+}
+
+/* section first paragraph */
+.first_paragraph{
+    margin-top: 20px;
+}
+
+/* highlighted_text */
+.highlighted_text{
+    background-color: yellow;
+}
+
+/* margin list */
+.list{
+    padding: .75em;
+    margin-left: 5px;
+}
+
+/* width line table head  */
+.column_space{
+    width: 200px;
+}
+
+/* background table head */
+thead{
+    background-color: rgb(58, 183, 224);
+    color: aliceblue;
+    text-align: left;
+}
+
+/* color background line table  */
+.line_lightblue{
+    background-color: rgb(139, 225, 231);
+}
+
+/* margin footer */
+footer{
+    margin: auto 5px;
+}
+
+/* title footer */
+.title_footer{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: rgb(150, 146, 146);
+}
+
+/* container images footer */
+.container_footer{
+    font-size: 1.25em;
+    font-weight: 700;
+    color: aliceblue;
+    margin: 5px auto;
+    
+}
+
+/* image graph */
+.image_graph{
+    background-image: url('../img/graph.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+
+}
+
+/* image monitor */
+.image_monitor{
+    background-image: url('../img/monitor.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
 }
