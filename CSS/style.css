@@ -11,7 +11,7 @@ body{
 }
 
 /* logo Booleaner */
-img{
+#logo_booleaner{
     height: 90px;
     margin-top: 90px;
 }
@@ -33,4 +33,8 @@ address{
 a{
     text-decoration: none;
     color: rgb(68, 129, 199);
+}
+
+main{
+    margin: auto 5px;
 }
