@@ -1,0 +1,36 @@
+
+body{
+    margin: 0 ;
+}
+
+/* banner */
+.container_banner{
+    background-color: lightskyblue;
+    background-image: url('../img/pattern.png');
+    height: 180px;
+}
+
+/* logo Booleaner */
+img{
+    height: 90px;
+    margin-top: 90px;
+}
+
+/* title */
+h1{
+    font-size: 3em;
+}
+
+/* author article */
+address{
+    font-size: 16px;
+}
+
+.address_author{
+    font-size: 21px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(68, 129, 199);
+}
